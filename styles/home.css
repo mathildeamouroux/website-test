@@ -1,6 +1,8 @@
 @font-face {
-  font-family: Poppins;
-  src: url(fonts/Poppins-Light.ttf);
+  font-family: "poppins";
+  src:url('fonts/poppins-light.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 
 .coming-soon-p {
   color: black;
-  font-family: Poppins;
+  font-family: poppins;
   font-size: 25px;
   font-weight: light;
 }
