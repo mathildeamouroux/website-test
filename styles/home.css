@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "poppins";
-  src:url('../fonts/poppins-light.ttf');
-}
-
 body {
   width: 100%;
   height: 100vh;
@@ -17,11 +12,28 @@ body {
   display: inline-block;
 }
 
+@font-face {
+  font-family: "poppins";
+  src:url('/fonts/poppins-light.ttf');
+}
+
 .coming-soon-p {
   color: black;
   font-family: poppins;
   font-size: 25px;
   font-weight: light;
+}
+
+@keyframes dots {
+  0%, 20%{
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .dots span {
@@ -39,16 +51,4 @@ body {
 
 .dots span:nth-child(3) {
   animation-delay: 1s;
-}
-
-@keyframes dots {
-  0%, 20% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
